@@ -1,0 +1,369 @@
+.navbar{
+  background:white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-family: Arial;
+  border:solid gray;
+}
+.nav-left{
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+.loc, .contact{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.loc-text{
+  display: flex;
+  flex-direction: column;
+}
+.upar{
+  font-size: 13px;
+  font-weight: bold;
+  color:black;
+}
+.neechay{
+  font-size: 12px;
+  color:gray;
+}
+.loc i{
+  color:red;
+  font-size: 20px;
+}
+.contact i{
+  color:red ;
+  font-size: 20px;
+}
+.nav-center img{
+  width: 130px;
+}
+.nav-right{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.complaint{
+  display: flex;
+  flex-direction: column;
+  background:white;
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+.cart img{
+  width:35px;
+  height: 35px;
+}
+.zero{
+  background:red;
+  color:white;
+  font-size: 10px;
+  padding: 3px 6px;
+  border-radius: 50%;
+}
+.banner img{
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+  .popular-title{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 35px;
+  color:black;
+  text-align:left;
+}
+.items{
+  display: flex;
+  gap: 15px;
+}
+
+.card{
+  background: white;
+  border-radius: 15px;
+  width: 250px;
+  padding: 10px;
+  text-align: center;
+}
+
+.card img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h3{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.card p{
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.card button{
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+}
+.banner-2 img{
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+.items{
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card{
+  background: white;
+  border: 1.5px solid red;
+  border-radius: 18px;
+  width: 250px;
+  padding: 12px;
+  text-align: left;
+}
+
+.card img{
+  width: 100%;
+  height: 180px;
+  border-radius: 12px;
+}
+
+.card h3{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin: 12px 0 5px 0;
+  color: BLACK;
+}
+
+.desc{
+  font-size: 13px;
+  color:lightslategray;
+  min-height: 38px;
+}
+
+.price-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.price-row span{
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.price-row button{
+  background:RED;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 35px;
+  height: 35px;
+  font-size: 22px;
+}
+.items{
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card{
+  background: white;
+  border: 1.5px solid red;
+  border-radius: 18px;
+  width: 250px;
+  padding: 12px;
+  text-align: left;
+}
+
+.card img{
+  width: 100%;
+  height: 180px;
+  border-radius: 12px;
+}
+
+.card h3{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin: 12px 0 5px 0;
+  color: BLACK;
+}
+
+.desc{
+  font-size: 13px;
+  color:lightslategray;
+  min-height: 38px;
+}
+
+.price-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.price-row span{
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.price-row button{
+  background:RED;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 35px;
+  height: 35px;
+  font-size: 22px;
+}
+.app-banner{
+  background:red;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px;
+  color: white;
+  position: relative;
+}
+
+.app-left h2{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 55px;
+  line-height: 1;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.app-left p{
+  font-size: 15px;
+  margin: 15px 0;
+}
+
+.store-btns{
+  display: flex;
+  gap: 10px;
+}
+
+.store-btns img{
+  width: 140px;
+  border-radius: 8px;
+}
+
+.app-right{
+  display: flex;
+  align-items: flex-end;
+}
+
+.mobile-img{
+  width: 220px;
+}
+
+.chef-img{
+  width: 280px;
+  margin-left: -40px;
+}
+
+/* NEECHE WALA TEXT */
+.about-text{
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.about-text h3{
+  color: gray;
+  font-size: 22px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-text p{
+  color:lightslategray;
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 15px auto;
+}
+
+.about-text a{
+  color:lightslategray;
+  font-size: 13px;
+}
+.footer{
+  background: #fffdf5;
+  margin-top: 40px;
+}
+
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+
+.footer-col h3{
+  font-size: 20px;
+  color:light black;
+  margin-bottom: 15px;
+}
+
+.footer-col p{
+  font-size: 14px;
+  color:grey;
+  margin: 10px 0;
+}
+
+.footer-col p i{
+  color:red;
+  margin-right: 8px;
+  font-size: 15px;
+}
+
+.logo-col img {
+  width: 180px;
+}
+.social{
+  display: flex;
+  gap: 15px;
+}
+
+.social i{
+  background:red;
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.footer-img img{
+  width: 100%;
+  display: block;
+}
+
+.footer-bottom{
+  background:red;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
